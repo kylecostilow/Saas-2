@@ -1,0 +1,35 @@
+:root {
+  --white: #fff;
+  --black: #000;
+  --font-color-base: #666;
+  --font-color-dark: #212529;
+  --font-color-light: #b0aebe;
+  --font-color-link: #57A6FF;
+  --footer: #34314b;
+  --footer-base: #2e2b45;
+  --contrast: rgba(246, 248, 249, 0.8);
+  --success: #64ECF5;
+  --danger: #FF8B8D;
+  --grad-1: #A1ECFF;
+  --grad-2: #7DBCFF;
+
+  --size-10: 0.625rem;
+  --size-14: 0.875rem;
+  --size-16: 1rem;
+  --size-18: 1.125rem;
+  --size-20: 1.25rem;
+  --size-30: 1.875rem;
+  --size-32: 2rem;
+  --size-40: 2.5rem;
+  --size-50: 3.125rem;
+  --size-100: 6.25rem;
+  --size-150: 9.375rem;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+}

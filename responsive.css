@@ -1,0 +1,430 @@
+@media screen and (max-width: 768px) {
+  [aria-controls="navBarDropdown"] {
+    display: block;
+  }
+  [aria-expanded="false"] ~ ul {
+    display: none;
+  }
+  [aria-expanded="true"] ~ ul {
+    display: block;
+    position: absolute;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7), lightgray);
+    width: 100%;
+    text-align: right;
+    box-shadow: 0px 0px 20px rgba(52, 49, 75, 0.1);
+  }
+  .bg-color {
+    background-image: linear-gradient( 130deg, #fefefe 50%, #e1e7ef 50%,#e1e7ef);
+  }
+  .container {
+    padding-bottom: 70px;
+    position: relative;
+  }
+
+  .menu-container {
+    width: 100%;
+  }
+
+  .navbar-btns {
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    top: 60px;
+    right: 0;
+
+  }
+  .border-buy-now {
+    width: 100px;
+    height: 30px;
+    padding: 5px 20px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .buy-now {
+    text-align: center;
+  }
+  .empowering {
+    text-align: center;
+  }
+  .play-video-container {
+    display: flex;
+    justify-content: center;
+  }
+  .google-logo {
+    border: 10px solid #fefefe;
+    box-shadow: 1px 1px 5px 1px gray;
+    border-radius: 50%;
+    height: 60px;
+    position: absolute;
+    right: 550px;
+    top: 500px;
+  }
+  
+  .atlassian-logo {
+    border: 10px solid #fefefe;
+    box-shadow: 0px 0px 5px 1px gray;
+    border-radius: 50%;
+    height: 80px;
+    position: absolute;
+    top: 500px;
+    right: 325px;
+  }
+  
+  .asana-logo {
+    border: 15px solid #fefefe;
+    box-shadow: 1px 1px 5px 1px gray;
+    border-radius: 50%;
+    height: 80px;
+    position: absolute;
+    top: 500px;
+    right: 90px;
+  }
+  
+  .paypal {
+    border: 15px solid #fefefe;
+    box-shadow: 1px 1px 5px 1px gray;
+    border-radius: 50%;
+    height: 80px;
+    position: absolute;
+    top: 600px;
+    right: 530px;
+  }
+  
+  .weave {
+    border: 15px solid #fefefe;
+    box-shadow: 1px 1px 5px 1px gray;
+    border-radius: 50%;
+    height: 80px;
+    position: absolute;
+    top: 620px;
+    right: 240px;
+  }
+  
+  .google-a {
+    border: 15px solid #fefefe;
+    box-shadow: 1px 1px 5px 1px gray;
+    border-radius: 50%;
+    height: 80px;
+    position: absolute;
+    top: 750px;
+    right: 400px;
+  }
+  
+  .google-calendar {
+    border: 15px solid #fefefe;
+    box-shadow: 1px 1px 5px 1px gray;
+    border-radius: 50%;
+    height: 80px;
+    position: absolute;
+    top: 750px;
+    right: 120px;
+  }
+
+  .key-container {
+    margin-top: 400px;
+  }
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card {
+    width: 320px;
+    height: 250px;
+  }
+  
+  .front-section {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .list-items {
+    font-size: 12px;
+  }
+
+  .unset{
+    padding: 0 50px;
+  }
+
+  .play-video-banner-1 {
+    margin: auto;
+  }
+  .woman3-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .dots {
+    height: 300px;
+    padding-top: 160px;
+    padding-left: 40px;
+    position: relative;
+    left: 40px;
+    bottom: 20px;
+  }
+  
+  .woman3 {
+    height: 200px;
+    position: relative;
+    right: 100px;
+    bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .info-txt-container {
+    display: flex;
+    align-items: center;
+    margin: 40px 60px;
+    gap: 40px;
+  }
+
+  .hubspot {
+    height: 50px;
+    text-align: center;
+
+  }
+
+  .template-info {
+    width: 400px;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .christina {
+    width: 200px;
+  }
+
+  .pricing-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  .mo-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 650px;
+    height: 400px;
+  }
+
+  .start {
+    width: 400px;
+  }
+  .package-container {
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+  }
+  .components-container {
+    display: flex;
+  }
+  .hire-us-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .hire-us {
+    width: 600px;
+  }
+  .contact-container {
+    min-width: 650px;
+  }
+  .name, .budget {
+    width: 300px;
+  }
+  .tell {
+    width: 610px;
+  }
+  .checkbox-emails {
+    min-width: 620px;
+  }
+  .checkbox {
+    width: 20px;
+    height: 20px;
+  }
+  .privacy-policy {
+    padding-left: 26px;
+    padding-top: 15px;
+  }
+  .underline {
+    display: none;
+  }
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 50px;
+    margin-left: 100px;
+    margin-right: 150px;
+  }
+  .footer-nav {
+    min-width: 400px;
+  }
+  .docs {
+    grid-column: 2 / 3;
+  }
+  .outro {
+    text-align: center;
+    margin: 40px 20px;
+  }
+}
+
+@media (max-width: 375px) {
+  .bg-color {
+    background-image: linear-gradient( 20deg, #fefefe 50%, #e1e7ef 50%,#e1e7ef);
+    margin-bottom: 110px;
+  }
+
+.google-logo {
+  position: absolute;
+  right: 300px;
+  top: 500px;
+}
+
+.atlassian-logo {
+  position: absolute;
+  top: 500px;
+  right: 160px;
+}
+
+.asana-logo {
+  position: absolute;
+  top: 500px;
+  right: 30px;
+}
+
+.paypal {
+  position: absolute;
+  top: 600px;
+  right: 280px;
+}
+
+.weave {
+  position: absolute;
+  top: 600px;
+  right: 90px;
+}
+
+.google-a {
+  position: absolute;
+  top: 720px;
+  right: 180px;
+}
+
+.google-calendar {
+  position: absolute;
+  top: 740px;
+  right: 50px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.card {
+  min-width: 250px;
+ }
+
+ .list-items {
+  font-size: 8px;
+}
+
+ .banner-1  {
+  width: 100%;
+ }
+ .dots {
+  margin-left: 30px;
+  height: 300px;
+  position: relative;
+  right: 200px;
+ }
+ .woman3 {
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  top: 3620px;
+  left: 85px;
+ }
+ .template-info {
+  font-size: 14px;
+  padding: 0 20px;
+  width: 300px;
+ }
+ .christina {
+  text-align: center;
+ }
+ .brand-container {
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+ }
+ .pricing-container {
+  min-width: 300px;
+ }
+ .start {
+  width: 250px
+ }
+ .package-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+ }
+ .components-container {
+  gap: 20px;
+  margin: 10px;
+ }
+ .hire-us-container {
+  text-align: center;
+  padding: 0px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+ }
+ .hire-us {
+  align-items: center;
+  justify-content: center;
+  padding-left: 0;
+  padding: 20px;
+ }
+ .contact-container {
+  min-width: 0;
+ }
+ .name, .budget, .tell {
+  max-width: 260px;
+ }
+ .checkbox-emails {
+  font-size: 12px;
+  min-width: 0;
+  width: 260px;
+ }
+ .contact-info {
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+ }
+ .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 0;
+    margin-left: 0;
+    margin-right: 0
+ }
+ .footer-nav {
+  width: 100%;
+  min-width: 0;
+}
+.footer-privacy-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.privacy-container {
+  gap: 15px;
+}
+.country {
+  width: 120px; 
+}
+}
